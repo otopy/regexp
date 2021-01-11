@@ -116,7 +116,7 @@
 ![alt-текст](https://github.com/otopy/regexp/blob/main/img/016.png)
 
 ```console
- |
+ (a|t)
 ```
 ![alt-текст](https://github.com/otopy/regexp/blob/main/img/017.png)
 
