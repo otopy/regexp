@@ -29,10 +29,9 @@
 | ------------- | -----:|
 | .    | начало строки |
 | [a]     | конец строки |
-| [a-b]    | начало строки |
-| [a]     | конец строки |
+| [a-d]    | начало строки |
 | [^a]    | начало строки |
-| [^a-b]     | конец строки |
+| [^a-d]     | конец строки |
 | \n    | начало строки |
 | \d     | конец строки |
 | \D   | начало строки |
@@ -67,18 +66,41 @@
 ![alt-текст](https://github.com/otopy/regexp/blob/main/img/005.png)
 
 ```console
- . 
+ [^a] 
 ```
-![alt-текст](https://github.com/otopy/regexp/blob/main/img/003.png)
+![alt-текст](https://github.com/otopy/regexp/blob/main/img/006.png)
 
 ```console
- [a] 
+ [^a-d] 
 ```
-![alt-текст](https://github.com/otopy/regexp/blob/main/img/004.png)
+![alt-текст](https://github.com/otopy/regexp/blob/main/img/007.png)
 
 ```console
- [a-d] 
+ \n
 ```
-![alt-текст](https://github.com/otopy/regexp/blob/main/img/005.png)
+![alt-текст](https://github.com/otopy/regexp/blob/main/img/008.png)
+
+```console
+ \d
+```
+![alt-текст](https://github.com/otopy/regexp/blob/main/img/009.png)
+
+```console
+ \D
+```
+![alt-текст](https://github.com/otopy/regexp/blob/main/img/010.png)
+
+```console
+ \s
+```
+![alt-текст](https://github.com/otopy/regexp/blob/main/img/011.png)
+
+```console
+ \S
+```
+![alt-текст](https://github.com/otopy/regexp/blob/main/img/012.png)
+
+
+
 
 
