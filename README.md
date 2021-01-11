@@ -43,7 +43,7 @@
 | \b   | начало строки |
 | \B     | конец строки |
 | ()   | начало строки |
-| |     | конец строки |
+| \|     | конец строки |
 | \t     | конец строки |
 
 
@@ -52,16 +52,33 @@
 
 
 ```console
- ^ 
+ . 
 ```
-![alt-текст](https://github.com/otopy/regexp/blob/main/img/001.png)
+![alt-текст](https://github.com/otopy/regexp/blob/main/img/003.png)
 
 ```console
- $ 
+ [a] 
 ```
-![alt-текст](https://github.com/otopy/regexp/blob/main/img/002.png)
+![alt-текст](https://github.com/otopy/regexp/blob/main/img/004.png)
 
+```console
+ [a-d] 
+```
+![alt-текст](https://github.com/otopy/regexp/blob/main/img/005.png)
 
+```console
+ . 
+```
+![alt-текст](https://github.com/otopy/regexp/blob/main/img/003.png)
 
+```console
+ [a] 
+```
+![alt-текст](https://github.com/otopy/regexp/blob/main/img/004.png)
+
+```console
+ [a-d] 
+```
+![alt-текст](https://github.com/otopy/regexp/blob/main/img/005.png)
 
 
